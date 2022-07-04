@@ -1,0 +1,234 @@
+body {
+    background: #ff7979;
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    /* grid-template-columns: auto auto; */
+    margin: 5px;
+    height: 650px;
+  }
+  
+  .first-child {
+    width: 50%;
+    margin: 5px;
+    height: 625px;
+  }
+  
+  .left-pane {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    grid-template-rows: 300px 300px;
+    height: 625px;
+  }
+  
+  .one {
+    width: 97%;
+    margin: 5px;
+    height: 290px;
+  }
+  
+  .one-container {
+    /* font-family: "Poppins"; */
+    margin-left: 100px;
+    margin-top: 170px;
+    line-height: 55px;
+  }
+  
+  .one-text {
+    letter-spacing: -0.520833px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  
+  .two {
+    width: 97%;
+    margin: 5px;
+    height: 290px;
+  }
+  
+  .two-container {
+    /* font-family: "Poppins"; */
+    margin-left: 100px;
+  }
+  
+  .two-text {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .second-child {
+    /* width: 50%; */
+    margin: 5px;
+    height: 625px;
+  }
+  
+  .right-pane {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 20px;
+    row-gap: 30px;
+    grid-template-rows: 100px 450px;
+    height: 625px;
+  }
+  
+  .three {
+    width: 97%;
+    margin: 5px;
+    height: 100px;
+  }
+  
+  .three-container {
+    /* font-family: 'Poppins'; */
+    padding-top: 25px;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.267857px;
+    color: #ffffff;
+  }
+  
+  .three-text-dark {
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .three-text-light {
+    font-weight: 1;
+  }
+  
+  .four {
+    width: 97%;
+    margin: 5px;
+    height: 450px;
+  }
+  
+  .form-header {
+    margin: 10px;
+    background-color: #5e54a4;
+    border-radius: 10px;
+    height: 80px;
+  }
+  
+  .form {
+    padding-top: 30px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+  }
+  
+  .form-grid {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+  }
+  
+  .input {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #5e54a4;
+    border-radius: 5px;
+    width: auto;
+  }
+  
+  .label-editext {
+    height: 100%;
+    text-align: left center;
+  }
+  
+  .editext {
+    height: 100%;
+    color: #3d3b48;
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    /* font-family: "Poppins"; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* line-height: 26px; */
+    letter-spacing: 0.25px;
+  }
+  
+  .button-container {
+    /* height: 100%; */
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    background-color: #38cc8b;
+  }
+  
+  .button {
+    background-color: #38cc8b;
+    height: 100%;
+    text-align: center;
+    /* font-family: "Poppins"; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .terms-services {
+    margin-top: 10px;
+    color: #bab7d4;
+    text-align: center;
+  }
+  
+  .condition {
+    color: #ff7979;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      display: grid;
+      grid-template-rows: auto;
+    }
+  
+    .one-container {
+      width: 100%;
+      margin-top: 180px;
+      /* margin-left: 10px; */
+    }
+  
+    .one-text {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    .two-container {
+      width: 100%;
+      /* margin-left: 10px; */
+    }
+  
+    .three-container {
+      padding-top: 10px;
+    }
+  
+    .button {
+      font-size: 12px;
+    }
+  }
+  
