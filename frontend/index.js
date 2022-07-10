@@ -30,7 +30,7 @@ btn.addEventListener("click", function (e) {
         let id3 = id + 3;
 
         if (input.value !== "") {
-            if (input.id === "f") {
+            if (input.id === "f" && input.id === "l" && input.id === "e" && input.id === "p") {
                 console.log("OK");
             }
         } else {
